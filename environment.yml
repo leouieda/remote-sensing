@@ -1,0 +1,12 @@
+name: envs258
+channels:
+    - defaults
+dependencies:
+    - python=3.7
+    - pip
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - rasterio
+    - scikit-image
