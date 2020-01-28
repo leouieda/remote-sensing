@@ -10,3 +10,5 @@ dependencies:
     - matplotlib
     - rasterio
     - scikit-image
+    - jupyter
+    - jupyterlab
