@@ -1,6 +1,7 @@
 name: envs258
 channels:
     - defaults
+    - conda-forge
 dependencies:
     - python=3.7
     - pip
@@ -12,3 +13,4 @@ dependencies:
     - scikit-image
     - jupyter
     - jupyterlab
+    - verde
