@@ -1,16 +1,14 @@
-name: envs258
+name: remote-sensing
 channels:
     - defaults
     - conda-forge
 dependencies:
-    - python=3.7
+    - python=3.8
     - pip
     - numpy
     - scipy
     - pandas
     - matplotlib
-    - rasterio
     - scikit-image
     - jupyter
     - jupyterlab
-    - verde
