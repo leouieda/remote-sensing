@@ -258,18 +258,6 @@ Image credit: [haade](https://commons.wikimedia.org/wiki/File:AtmosphereEMSpectr
 
 ---
 
-## Example: Bands used by optical satellites
-
-<img src="images/optical-satellite-comparison.png" style="width: 80%;">
-
-<div class="r-stretch bottom-left">
-
-Image credit: [USGS](https://www.usgs.gov/media/images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
-
-</div>
-
----
-
 # Reception of radiation
 
 Depends on:
@@ -282,43 +270,30 @@ Depends on:
 
 ---
 
+## Example: Bands used by optical satellites
+
+<img src="images/optical-satellite-comparison.png" style="width: 80%;">
+
+<div class="r-stretch bottom-left">
+
+Image credit: [USGS](https://www.usgs.gov/media/images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
+
+</div>
+
+---
+
 <!-- END MATTER -->
 <!-- ====================================================================== -->
 
-## Data sources
+<!--## References and further reading-->
 
-<div class="lefted">
+<!--<div class="lefted">-->
 
-* List of data sources
+<!--* List of references-->
 
-</div>
+<!--</div>-->
 
----
-
-<div class="centered">
-<div>
-
-## Source code
-
-Python code for making the figures shown in this lecture:
-
-<i class="fab fa-github"></i>
-[leouieda/remote-sensing](https://github.com/leouieda/remote-sensing)
-
-</div>
-</div>
-
----
-
-## References and further reading
-
-<div class="lefted">
-
-* List of references
-
-</div>
-
----
+<!------->
 
 <!-- .slide: class="slide-license" -->
 
