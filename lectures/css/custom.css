@@ -1,0 +1,103 @@
+p {
+    /*text-align: left;*/
+}
+
+.left {
+    text-align: left;
+}
+
+.imgshadow {
+    border: none;
+    background: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.80) !important;
+}
+
+.attribution {
+    font-size: 0.4em !important;
+}
+
+/* Columns in slides */
+/*****************************************************************************/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 0 2% !important;
+}
+
+.col-img {
+    flex: 3;
+    padding: 0 2% !important;
+}
+
+.col-text {
+    flex: 2;
+    padding: 0 2% !important;
+}
+
+/* Tweaks to Reveal CSS */
+/*****************************************************************************/
+
+.reveal {
+    font-size: 70px;
+}
+
+.reveal section img {
+    border: none;
+    box-shadow: none;
+    background: none;
+    margin: 0;
+    max-width: none;
+    max-height: none;
+}
+
+.reveal section video {
+    margin: 0;
+    max-width: none;
+    max-height: none;
+}
+
+.reveal ul.fa-ul {
+    list-style-type: none;
+}
+
+.reveal ul.fa-ul li {
+    margin-bottom: 5%;
+}
+
+.reveal h1, .reveal h2, .reveal h3  {
+    text-shadow: 2px 3px 3px #00000055 !important;
+}
+
+.shadow, .reveal h4 {
+    text-shadow: 1px 1px 1px #00000055 !important;
+}
+
+section.has-light-background h1 {
+    color: #333333;
+}
+
+.reveal h2 {
+	text-transform: none;
+    font-size: 1.5em;
+    margin-bottom: 3%;
+}
+
+.reveal h3 {
+	text-transform: none;
+    font-size: 1.1em;
+}
+
+.reveal ul, .reveal ol {
+    font-size: 0.8em;
+    text-align: left;
+    line-height: 1.3em;
+}
+
+.reveal li {
+    margin: 3% 0;
+}
