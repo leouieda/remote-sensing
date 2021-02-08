@@ -51,6 +51,8 @@ Remote Sensing
 
 # Remote sensing is...
 
+<div class="fragment">
+
 Observing a system remotely, i.e. **without physical contact** between sensor
 and system.
 
@@ -62,6 +64,8 @@ Experts are in high demand in various industries
 (particularly with machine learning and coding mixed in).
 
 **In this class, we'll focus on satellite remote sensing.**
+
+</div>
 
 ---
 
@@ -75,6 +79,206 @@ Experts are in high demand in various industries
 * Atmosphere, e.g. wind speeds and weather patterns
 * Mapping of roads, pathways, and urban areas
 * Prediction of country/continent wide agricultural yield
+
+---
+
+# We'll cover 3 types of remote sensing data
+
+<div class="container">
+<div class="col">
+
+Optical
+<br>
+images
+
+<img src="images/Anak_Krakatau_2018-12-20_Landsat_8_T1_SR.jpg">
+
+<div class="tiny">
+
+Credit: [USGS/NASA](https://commons.wikimedia.org/wiki/File:Anak_Krakatau_2018-12-20_Landsat_8_T1_SR.jpg)
+(CC-BY-SA)
+
+</div>
+
+
+</div>
+<div class="col">
+
+Digital Elevation Models (DEMs)
+
+<img src="images/mount-saint-helens-dem.jpg">
+
+<div class="tiny">
+
+Credit: [Steve Schilling](https://www.usgs.gov/media/images/dem-mount-st-helens-crater-glacier-and-lava-domes)
+(public domain)
+
+</div>
+
+</div>
+<div class="col">
+
+SAR/InSAR
+
+<img src="images/Izmit_interferogram.jpg">
+
+<div class="tiny">
+
+Credit: [NASA/JPL-Caltech](https://en.wikipedia.org/wiki/File:Izmit_interferogram.jpg)
+(public domain)
+
+</div>
+
+</div>
+</div>
+
+---
+
+<div class="centered">
+<div>
+
+# The remote sensing essentials
+
+1. Source of energy
+1. Transmission through the atmosphere
+1. Reception by a sensor
+
+</div>
+</div>
+
+---
+
+# Sources of energy
+
+Most remote sensing instruments use some form of **electromagnetic (EM) radiation**.
+
+Examples of EM sources:
+
+<div class="fragment">
+
+* The sun
+* "Hot" objects/surfaces
+* Artificial/human-made
+
+</div>
+
+---
+
+# Active versus passive
+
+**Active**: Instruments generate their own EM radiation
+<br>
+(SAR/InSAR, altimetry, LIDAR)
+
+**Passive**: Use reflected solar radiation or emitted by the target
+<br>
+(optical, thermal)
+
+---
+
+# Electromagnetic spectrum
+
+<img src="images/EM_Spectrum_Properties_edit.svg">
+
+<div class="r-stretch bottom-right">
+
+Image credit: [Inductiveload, NASA](https://commons.wikimedia.org/wiki/File:EM_Spectrum_Properties_edit.svg) (CC-BY-SA)
+
+</div>
+
+---
+
+# Reflectance properties of materials
+
+<div class="container">
+<div class="col-large">
+
+Some light is absorbed by different materials
+
+Dependent on the wavelength
+
+Used to characterize materials from remote sensing data
+
+</div>
+<div class="col-small">
+
+<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg">
+
+<div class="r-stretch bottom-right">
+
+Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg) (CC-BY)
+
+</div>
+
+</div>
+</div>
+
+---
+
+# Transmittance through the atmosphere
+
+<div class="container">
+<div class="col-large">
+
+<img src="images/Solar_spectrum_pt.svg">
+
+<div class="r-stretch bottom-left">
+
+Image credit: [Jucá Costa](https://commons.wikimedia.org/wiki/File:Solar_spectrum_pt.svg) (CC-BY-SA)
+
+</div>
+
+</div>
+<div class="col-small">
+
+The atmosphere absorbs light at specific wavelength **bands**
+
+The bands are determined by gasses (H2O, CO2, O2, O3)
+
+</div>
+
+</div>
+</div>
+
+---
+
+# Absorption properties of the atmosphere
+
+determine in which wavelengths remote sensing
+<br>
+satellites can operated
+
+<img src="images/AtmosphereEMSpectrum.png" style="width: 70%;">
+
+<div class="r-stretch bottom-left">
+
+Image credit: [haade](https://commons.wikimedia.org/wiki/File:AtmosphereEMSpectrum.png) (CC-BY-SA)
+
+</div>
+
+---
+
+## Example: Bands used by optical satellites
+
+<img src="images/optical-satellite-comparison.png" style="width: 80%;">
+
+<div class="r-stretch bottom-left">
+
+Image credit: [USGS](https://www.usgs.gov/media/images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
+
+</div>
+
+---
+
+# Reception of radiation
+
+Depends on:
+
+* Sensor type
+* Sensitivity to specific wavelengths
+* Resolution
+* Satellite orbit
+* How the signal is digitized
 
 ---
 
