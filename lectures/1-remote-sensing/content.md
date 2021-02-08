@@ -270,6 +270,18 @@ Depends on:
 
 ---
 
+# Resolution
+
+Temporal resolution: how often a place is imaged (influenced by satellite orbit)
+
+Spectral resolution: how many bands (and their size) are sampled
+
+Spatial resolution: the smallest features that can be resolved
+
+Radiometric resolution: how many bits are used to digitize the signal
+
+---
+
 ## Example: Bands used by optical satellites
 
 <img src="images/optical-satellite-comparison.png" style="width: 80%;">
