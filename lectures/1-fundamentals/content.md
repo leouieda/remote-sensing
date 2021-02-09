@@ -17,7 +17,7 @@ Remote Sensing
 
 <div class="r-stretch">
 
-# Introduction to remote sensing
+# Remote sensing fundamentals
 
 </div>
 
