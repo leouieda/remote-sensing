@@ -9,7 +9,8 @@ Launch JupyterLab online: [![Binder](https://mybinder.org/badge_logo.svg)](https
 
 Links to the lecture slides:
 
-* [Introduction](http://www.leouieda.com/remote-sensing/lectures/0-introduction/)
+* [Introduction to the module](https://www.leouieda.com/remote-sensing/lectures/0-introduction/)
+* [Remote sensing fundamentals](https://www.leouieda.com/remote-sensing/lectures/1-fundamentals/#/)
 
 ## License
 
