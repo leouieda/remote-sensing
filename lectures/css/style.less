@@ -49,6 +49,12 @@
             line-height: @basefontsize * 2.5;
         }
     }
+    .small {
+        p, ul, ol {
+            font-size: @basefontsize * 0.8;
+            line-height: @basefontsize * 1.1;
+        }
+    }
     .tiny {
         p, ul, ol {
             font-size: @basefontsize * 0.35;
@@ -213,7 +219,10 @@
     // Custom slide classes
     .slide-transition {
         h1 {
-            font-weight: bold;
+            font-size: @basefontsize * 2;
+            line-height: @basefontsize * 2.5;
+            font-weight: normal;
+            text-transform: none;
             margin: 5% 0;
         }
     }
