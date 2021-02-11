@@ -17,7 +17,7 @@ Remote Sensing
 
 <div class="r-stretch">
 
-# Remote sensing fundamentals
+# Remote Sensing Fundamentals
 
 </div>
 
@@ -91,7 +91,7 @@ Optical
 <br>
 images
 
-<img src="images/Anak_Krakatau_2018-12-20_Landsat_8_T1_SR.jpg">
+<img src="../images/Anak_Krakatau_2018-12-20_Landsat_8_T1_SR.jpg">
 
 <div class="tiny">
 
@@ -106,11 +106,11 @@ Credit: [USGS/NASA](https://commons.wikimedia.org/wiki/File:Anak_Krakatau_2018-1
 
 Digital Elevation Models (DEMs)
 
-<img src="images/mount-saint-helens-dem.jpg">
+<img src="../images/mount-saint-helens-dem.jpg">
 
 <div class="tiny">
 
-Credit: [Steve Schilling](https://www.usgs.gov/media/images/dem-mount-st-helens-crater-glacier-and-lava-domes)
+Credit: [Steve Schilling](https://www.usgs.gov/media/../images/dem-mount-st-helens-crater-glacier-and-lava-domes)
 (public domain)
 
 </div>
@@ -120,7 +120,7 @@ Credit: [Steve Schilling](https://www.usgs.gov/media/images/dem-mount-st-helens-
 
 SAR/InSAR
 
-<img src="images/Izmit_interferogram.jpg">
+<img src="../images/Izmit_interferogram.jpg">
 
 <div class="tiny">
 
@@ -178,7 +178,7 @@ Examples of EM sources:
 
 # Electromagnetic spectrum
 
-<img src="images/EM_Spectrum_Properties_edit.svg">
+<img src="../images/EM_Spectrum_Properties_edit.svg">
 
 <div class="r-stretch bottom-right">
 
@@ -202,7 +202,7 @@ Used to characterize materials from remote sensing data
 </div>
 <div class="col-small">
 
-<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg">
+<img src="../images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg">
 
 <div class="r-stretch bottom-right">
 
@@ -220,7 +220,7 @@ Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral
 <div class="container">
 <div class="col-large">
 
-<img src="images/Solar_spectrum_pt.svg">
+<img src="../images/Solar_spectrum_pt.svg">
 
 <div class="r-stretch bottom-left">
 
@@ -248,7 +248,7 @@ determine in which wavelengths remote sensing
 <br>
 satellites can operated
 
-<img src="images/AtmosphereEMSpectrum.png" style="width: 70%;">
+<img src="../images/AtmosphereEMSpectrum.png" style="width: 70%;">
 
 <div class="r-stretch bottom-left">
 
@@ -284,11 +284,11 @@ Radiometric resolution: how many bits are used to digitize the signal
 
 ## Example: Bands used by optical satellites
 
-<img src="images/optical-satellite-comparison.png" style="width: 80%;">
+<img src="../images/optical-satellite-comparison.png" style="width: 80%;">
 
 <div class="r-stretch bottom-left">
 
-Image credit: [USGS](https://www.usgs.gov/media/images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
+Image credit: [USGS](https://www.usgs.gov/media/../images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
 
 </div>
 
