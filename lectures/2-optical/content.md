@@ -188,22 +188,28 @@ Image credit: [Giorgiogp2](https://commons.wikimedia.org/wiki/File:MODIS_sst.png
 
 # Panchromatic band
 
-Senses a broader range of wavelengths than normal bands.
-
 <div class="container">
-<div class="col">
+<div class="col-large">
 
-Image comparing.
-
-</div>
-<div class="col small">
-
-Increased sampled energy allows for **higher spatial resolution** when compared to other bands.
-
-Can be used to sharpen the other bands (known as
-[pansharpening](https://en.wikipedia.org/wiki/Pansharpened_image)).
+<img src="../images/panchromatic-rbg-resolution.svg">
 
 </div>
+<div class="col-small small">
+
+Measures on a broader range of wavelengths.
+
+Increased sampled energy allows for **higher spatial resolution**.
+
+Can be used to increase the resolution of other bands
+([pansharpening](https://en.wikipedia.org/wiki/Pansharpened_image)).
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: Leonardo Uieda (CC-BY)
+
 </div>
 
 ---
@@ -251,16 +257,15 @@ Image credit: [Orbital Sciences Corporation](https://en.wikipedia.org/wiki/File:
 
 Available in 2 levels:
 
-Level 1: top-of-the-atmosphere reflectance
-
-Level 2: atmospherically corrected surface reflectance and surface temperature
+* Level 1: **top-of-the-atmosphere** reflectance
+* Level 2: atmospherically corrected **surface reflectance** and surface temperature
 
 In general, opt for level 2 data\*
 
 <div class="tiny">
 
-\*There can be some problems with the automated processing in areas with cloud
-coverage or smoke.
+\*There can be some problems with the automated processing in areas with dense
+cloud coverage or smoke.
 
 </div>
 
@@ -299,7 +304,6 @@ Image credit: [Michelle A. Bouchard](https://www.usgs.gov/media/images/example-l
 | 10-Thermal 1  | 10.60-11.19  | 100 |
 | 11-Thermal 2  | 11.50-12.51  | 100 |
 
-
 </div>
 </div>
 
@@ -311,7 +315,7 @@ Image credit: [USGS](https://www.usgs.gov/media/../images/comparison-landsat-7-a
 
 ---
 
-# Example Landsat8 scene
+# Example Landsat8 Level 2 scene
 
 
 
