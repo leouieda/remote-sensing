@@ -156,10 +156,9 @@ Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral
 
 ---
 
-# Thermal bands
+# Thermal bands (wavelengths > 10,000 nm)
 
-Bands with wavelengths > 10,000 nm allow calculation of
-the surface temperature on land and oceans.
+Allow calculation of the surface temperature on land and oceans.
 
 <div class="container">
 <div class="col">
@@ -174,12 +173,139 @@ Crucial input for ocean and climate models.
 Used to monitor volcanic activity and fires, which are often obscured by
 smoke and clouds.
 
+Lower spatial resolution than smaller wavelength bands.
+
 </div>
 </div>
 
 <div class="r-stretch bottom-left">
 
 Image credit: [Giorgiogp2](https://commons.wikimedia.org/wiki/File:MODIS_sst.png) (CC-BY-SA)
+
+</div>
+
+---
+
+# Panchromatic band
+
+Senses a broader range of wavelengths than normal bands.
+
+<div class="container">
+<div class="col">
+
+Image comparing.
+
+</div>
+<div class="col small">
+
+Increased sampled energy allows for **higher spatial resolution** when compared to other bands.
+
+Can be used to sharpen the other bands (known as
+[pansharpening](https://en.wikipedia.org/wiki/Pansharpened_image)).
+
+</div>
+</div>
+
+---
+
+# NASA/USGS Landsat Program
+
+<div class="container">
+<div class="col-large small">
+
+Running since the 1970s.
+
+[Landsat 8](https://en.wikipedia.org/wiki/Landsat_8) satellite was launched in
+2013 and is still operating.
+
+Data are released to the public domain and can be downloaded from
+[USGS EarthExplorer](https://earthexplorer.usgs.gov/).
+
+</div>
+<div class="col-small tiny">
+
+<img src="../images/Landsat_Data_Continuity_Mission_Observatory_testing.jpg" style="width: 60%;">
+
+Landsat 8 undergoing testing.
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [Orbital Sciences Corporation](https://en.wikipedia.org/wiki/File:Landsat_Data_Continuity_Mission_Observatory_testing.jpg) (public domain)
+
+</div>
+
+---
+
+# Landsat data products
+
+<div class="container">
+<div class="col-large">
+
+<img src="../images/landsat8-level-comparison.svg">
+
+</div>
+<div class="col-small small">
+
+Available in 2 levels:
+
+Level 1: top-of-the-atmosphere reflectance
+
+Level 2: atmospherically corrected surface reflectance and surface temperature
+
+In general, opt for level 2 data\*
+
+<div class="tiny">
+
+\*There can be some problems with the automated processing in areas with cloud
+coverage or smoke.
+
+</div>
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [Michelle A. Bouchard](https://www.usgs.gov/media/images/example-landsat-8-collection-2-products) (public domain)
+
+</div>
+
+---
+
+# Landsat 8 bands
+
+<div class="container">
+<div class="col-large">
+
+<img src="../images/optical-satellite-comparison.png" style="width: 100%;">
+
+</div>
+<div class="col-small smaller">
+
+| Band | Wavelength (µm) | Resolution (m) |
+|------|:---------------:|:--------------:|
+| 1-Ultra Blue  | 0.435-0.451  | 30 |
+| 2-Blue  | 0.452-0.512  | 30 |
+| 3-Green  | 0.533-0.590  | 30 |
+| 4-Red  | 0.636-0.673  | 30 |
+| 5-NIR  | 0.851-0.879  | 30 |
+| 6-SWIR 1  | 1.566-1.651  | 30 |
+| 7-SWIR 2  | 2.107-2.294  | 30 |
+| 8-Panchromatic  | 0.503-0.676  | 15 |
+| 9-Cirrus  | 1.363-1.384  | 30 |
+| 10-Thermal 1  | 10.60-11.19  | 100 |
+| 11-Thermal 2  | 11.50-12.51  | 100 |
+
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [USGS](https://www.usgs.gov/media/../images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
 
 </div>
 
@@ -197,20 +323,6 @@ Image credit: Leonardo Uieda (CC-BY)
 
 ---
 
-# Panchromatic band
-
-Measures across a wider range of wavelengths than normal bands.
-
-Increased sampled energy allows for **higher spatial resolution** when compared to other bands.
-
-Can be used to sharpen the other bands (known as pan-sharpening).
-
-Image comparing.
-
-
-
----
-
 <!-- .slide: class="slide-transition"  data-background-color="#000000" data-background-image="../assets/background.jpg" data-background-repeat="no-repeat" data-background-opacity="0.15" data-background-position="center" -->
 
 <div class="centered">
@@ -221,21 +333,10 @@ Image comparing.
 </div>
 </div>
 
-
 ---
 
 <!-- END MATTER -->
 <!-- ====================================================================== -->
-
-<!--## References and further reading-->
-
-<!--<div class="lefted">-->
-
-<!--* List of references-->
-
-<!--</div>-->
-
-<!------->
 
 <!-- .slide: class="slide-license" -->
 
