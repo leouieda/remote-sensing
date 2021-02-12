@@ -52,7 +52,7 @@ Remote Sensing
 <div class="centered">
 <div>
 
-# Principles of Optical Imaging
+# Introduction
 
 </div>
 </div>
@@ -60,7 +60,6 @@ Remote Sensing
 ---
 
 # Previously...
-
 
 The 3 essentials of remote sensing:
 
@@ -315,11 +314,11 @@ Image credit: [USGS](https://www.usgs.gov/media/../images/comparison-landsat-7-a
 
 ---
 
-# Example Landsat8 Level 2 scene
+## Example Landsat 8 Level 2 scene
 
+<img src="../images/landsat8-bands-liverpool.svg" style="width: 92%;">
 
-
-<div class="r-stretch bottom-left">
+<div class="r-stretch bottom-right">
 
 Image credit: Leonardo Uieda (CC-BY)
 
@@ -332,7 +331,17 @@ Image credit: Leonardo Uieda (CC-BY)
 <div class="centered">
 <div>
 
-# Quantitative Image Analysis
+# Quantitative Analysis
+
+</div>
+</div>
+
+---
+
+<div class="centered">
+<div>
+
+# Coming soon.
 
 </div>
 </div>
