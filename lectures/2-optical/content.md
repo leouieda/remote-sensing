@@ -399,6 +399,183 @@ Image credit: Leonardo Uieda (CC-BY)
 
 ---
 
+# Indices
+
+<div class="container">
+<div class="col small">
+
+Indices are values calculated per-pixel from the reflectance of different
+bands.
+
+Example: subtract the NIR and SWIR bands and divide by their sum.
+
+Used to highlight materials based on their
+spectral characteristics.
+
+Easier to analyze since they combine multiple bands into a single index.
+
+</div>
+<div class="col small fragment">
+
+**How would you design an index <br> that highlights vegetation?**
+
+<img src="../images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 70%">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg) (CC-BY)
+
+</div>
+
+---
+
+# NDVI
+
+<div class="container">
+<div class="col-large small">
+
+<img src="../images/ndvi-mato-grosso.svg" style="width: 100%">
+
+</div>
+<div class="col-small small">
+
+The Normalized Difference Vegetation Index:
+
+`$ NDVI = \dfrac{NIR - Red}{NIR + Red} $`
+
+</div>
+</div>
+
+Indicates dense and healthy vegetation by highlighting the spectral signature
+of chlorophyll.
+
+<div class="r-stretch bottom-left">
+
+Image credit: Leonardo Uieda (CC-BY)
+
+</div>
+
+---
+
+# NBR
+
+<div class="container">
+<div class="col-large small">
+
+<img src="../images/nbr_thomas_fire.svg" style="width: 100%">
+
+</div>
+<div class="col-small small">
+
+The Normalized Burn Ratio:
+
+`$ NBR = \dfrac{NIR - SWIR}{NIR + SWIR} $`
+
+Burned areas reflect weekly on NIR and strongly on SWIR bands.
+
+Healthy vegetation is the opposite.
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: Leonardo Uieda (CC-BY)
+
+</div>
+
+---
+
+# Classification and segmentation
+
+<div class="container">
+<div class="col small">
+
+More advanced analysis involves the **segmentation** of an image into separate
+objects.
+
+The output of this can be used for **classification** of image sections (burn
+severity, vegetation health, vegetation type, ice vs snow, etc.)
+
+</div>
+<div class="col small">
+
+<img src="../images/Object_based_image_analysis.jpg" style="width: 100%">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: [Uddinkabir](https://commons.wikimedia.org/wiki/File:Object_based_image_analysis.jpg) (CC-BY-SA)
+
+</div>
+
+---
+
+# Frontiers
+
+<div class="container">
+<div class="col-large small">
+
+An exciting area of current research: deep learning for satellite image
+classification.
+
+<img src="../images/Typical_cnn.png" style="width: 100%">
+
+</div>
+<div class="col-small small">
+
+Presents unique challenges since datasets are massive (hundreds of
+terabytes).
+
+Enables automatic detection and monitoring of fires, deforestation, landslides,
+and more on a global scale.
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [Uddinkabir](https://commons.wikimedia.org/wiki/File:Object_based_image_analysis.jpg) (CC-BY-SA)
+
+</div>
+
+---
+
+# Limitations
+
+<div class="container fragment">
+<div class="col-small small">
+
+* Day-time only
+* Clouds
+* Smoke
+* Atmospheric conditions
+* Range of wavelengths
+
+</div>
+<div class="col-large smaller">
+
+Smoke obscures the visible bands but currently burning areas can be seen on SWIR
+bands.
+
+<img src="../images/new_south_wales_fire.svg" style="width: 95%">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: Leonardo Uieda (CC-BY)
+
+</div>
+
+---
+
 <!-- END MATTER -->
 <!-- ====================================================================== -->
 
