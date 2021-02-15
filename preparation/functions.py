@@ -32,10 +32,12 @@ def load_scene(folder, pattern):
     return scene
 
 
-def crop_scene(scene, region):
+def crop_scene(scene, region=None):
     """
     Crop all bands in a scene to the given pixel interval.
     """
+    if region is None:
+        return scene
     w, e, s, n = region
     cropped = dict()
     for band in scene:
@@ -49,7 +51,7 @@ def save_scene(scene, destination, prefix=""):
     The file names are "{prefix}B{band}.TIF".
     """
     destination = Path(destination)
-    destination.mkdir(exist_ok=True)
+    destination.mkdir(exist_ok=True, parents=True)
     for band in scene:
         fname = destination / f"{prefix}B{band}.TIF"
         skimage.io.imsave(fname, scene[band])
