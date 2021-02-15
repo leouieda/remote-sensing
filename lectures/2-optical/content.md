@@ -338,12 +338,63 @@ Image credit: Leonardo Uieda (CC-BY)
 
 ---
 
-<div class="centered">
-<div>
+<div class="container">
+<div class="col small">
 
-# Coming soon.
+# Composites
+
+Computers display color by combining **red, green, and blue** light.
+
+We can create color images (composites) by **using specific bands** to
+specify the intensity of red, green, and blue.
+
+Landsat 8 example: band 4 (red) to red, band 3 (green) to green, band 2 (blue)
+to blue creates an **RBG composite**
+<br>
+(aka "true color").
 
 </div>
+<div class="col">
+
+<img src="../images/rgb-composite-liverpool.svg" style="width: 95%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: Leonardo Uieda (CC-BY)
+
+</div>
+
+---
+
+<div class="container">
+<div class="col small">
+
+# "False color"
+
+We can create composites of **any combination** of bands as red, green, and
+blue.
+
+Different combinations **highlight different features** depending on the
+reflectance of materials.
+
+Landsat 8 example: band 5 (NIR) to red, band 4 (red) to green, band 3 (green)
+to blue creates a **color-infrared (CIR) composite**
+
+</div>
+<div class="col fragment">
+
+<img src="../images/cir-composite-liverpool.svg" style="width: 95%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: Leonardo Uieda (CC-BY)
+
 </div>
 
 ---
