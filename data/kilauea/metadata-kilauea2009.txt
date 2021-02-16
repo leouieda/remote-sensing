@@ -1,0 +1,73 @@
+Dataset Information:
+
+Dataset Name: Hawaii Big Island Lidar Survey
+Dataset Short Name: HI09_Big_Island
+DOI: https://doi.org/10.5069/G9DZ067X
+
+Data Access Acknowledgement: This material is based on [data, processing] services provided by the OpenTopography Facility with support from the National Science Foundation under NSF Award Numbers 1833703, 1833643, and 1833632.
+
+Dataset Acknowledgement: Lidar data acquisition and processing completed by the National Center for Airborne Laser Mapping (NCALM - http://www.ncalm.org). NCALM funding is provided by NSF's Division of Earth Sciences, Instrumentation and Facilities Program. EAR-1043051.  Grant NSF EAR-0739153 (PI: Soule) and a NASA subcontract to the Jet Propulsion Laboratory; Award #1290138 (PI: Martel) also supported this data collection.
+
+Dataset Citation: N/A, see https://opentopography.org/citations
+
+Horizontal Coordinates: UTM Zone 05N WGS84 (ITRF2000) [EPSG: 32605]
+Vertical Coordinates: NAVD88 (GEOID 03) [EPSG: 5703]
+
+Job Description:
+	User:leouieda@gmail.com
+	Job ID: pc1613493904020
+	Title: Kilauea2009
+	Description:
+
+Job Processing Result:
+	Submission Time: 2021-02-16 08:45:04
+	Completion Time: 2021-02-16 08:49:57
+	Duration: 293 seconds
+	Number of Points: 50,405,257
+	Status: Done
+
+Data Selection Coordinates: 
+	Xmin: 259014.831779
+	Xmax: 265234.48627
+	Ymin: 2146295.5812
+	Ymax: 2150356.174621
+	Classifications: Ground
+	Exclude Noise: No
+
+Point Cloud Results:
+	Download point cloud data in ASCII format: No
+	Download point cloud data in LAS format: No
+	Download point cloud data in LAZ format: Yes
+
+DEM Generation (Local Gridding):
+	Calculate Zmin grid: No
+	Calculate Zmax grid: No
+	Calculate Zmean grid: No
+	Calculate Zidw grid: No
+	Calculate point count: No
+
+DEM Generation (TIN):
+	Calculate TIN: Yes
+	Grid Format: GTiff
+	Resolution: 2
+	Max Triangle Size: 50
+
+Derivative Products:
+	Generate hillshade and slope grids: GTiff
+
+Visualization:
+	Images & Google Earth KML: Yes
+	Altitude of Light: 45
+	Azimuth of Light: 315
+	Color Option: No
+	KMZ Option: No
+
+3D Point Cloud Visualization: No
+Hydrologic Terrain Analysis (TauDEM) Products:
+	Hydrologically correct DEM with pits filled: No
+	D-Infinity Flow Direction : No
+	D-Infinity Specific Catchment Area: No
+	Topographic Wetness Index: No
+	D8 Flow Direction: No
+	tauDemD8FlowDir: No
+Global Solar Irradiation: No
