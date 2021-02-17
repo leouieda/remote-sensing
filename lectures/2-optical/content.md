@@ -540,7 +540,7 @@ and more on a global scale.
 
 <div class="r-stretch bottom-left">
 
-Image credit: [Uddinkabir](https://commons.wikimedia.org/wiki/File:Object_based_image_analysis.jpg) (CC-BY-SA)
+Image credit: [Aphex34](https://commons.wikimedia.org/wiki/File:Typical_cnn.png) (CC-BY-SA)
 
 </div>
 
