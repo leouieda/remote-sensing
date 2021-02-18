@@ -164,6 +164,34 @@ The distance is the speed of light times half of the two-way travel time.
 
 `$ d = \dfrac{\Delta t}{2} \times c $`
 
+</div>
+<div class="col-small">
+
+<img src="../images/LiDAR-i_lend.jpg" style="width: 85%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: Modified from [Marek9134](https://commons.wikimedia.org/wiki/File:LiDAR-i_lend.gif) (CC-BY-SA)
+
+</div>
+
+---
+
+# Multiple surfaces
+
+<div class="container">
+<div class="col-large small">
+
+Reflections of a single pulse happen on multiple surfaces:
+top of the canopy and bare ground, water surface and lake bottom, etc.
+
+Interpreters can pick out each surface to map individually.
+
+Used to study biomass, depth of glacial lakes, and topography in densely
+vegetated areas.
 
 </div>
 <div class="col-small">
@@ -181,172 +209,88 @@ Image credit: Modified from [Anthony Beck](https://commons.wikimedia.org/wiki/Fi
 
 ---
 
-# Thermal bands (wavelengths > 10,000 nm)
-
-Allow calculation of the surface temperature on land and oceans.
-
-<div class="container">
-<div class="col">
-
-<img src="../images/MODIS_sst.png" >
-
-</div>
-<div class="col small">
-
-Crucial input for ocean and climate models.
-
-Used to monitor volcanic activity and fires, which are often obscured by
-smoke and clouds.
-
-Lower spatial resolution than smaller wavelength bands.
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: [Giorgiogp2](https://commons.wikimedia.org/wiki/File:MODIS_sst.png) (CC-BY-SA)
-
-</div>
-
----
-
-# Panchromatic band
-
-<div class="container">
-<div class="col-large">
-
-<img src="../images/panchromatic-rbg-resolution.svg">
-
-</div>
-<div class="col-small small">
-
-Measures on a broader range of wavelengths.
-
-Increased sampled energy allows for **higher spatial resolution**.
-
-Can be used to increase the resolution of other bands
-([pansharpening](https://en.wikipedia.org/wiki/Pansharpened_image)).
-
-</div>
-</div>
-
-<div class="r-stretch bottom-right">
-
-Image credit: Leonardo Uieda (CC-BY)
-
-</div>
-
----
-
-# NASA/USGS Landsat Program
+# LiDAR in archeology
 
 <div class="container">
 <div class="col-large small">
 
-Running since the 1970s.
+LiDR produces high resolution DEMs that can penetrate vegetation coverage.
 
-[Landsat 8](https://en.wikipedia.org/wiki/Landsat_8) satellite was launched in
-2013 and is still operating.
+Can reveal archeological sites that would not be visible.
 
-Data are released to the public domain and can be downloaded from
-[USGS EarthExplorer](https://earthexplorer.usgs.gov/).
-
-</div>
-<div class="col-small tiny">
-
-<img src="../images/Landsat_Data_Continuity_Mission_Observatory_testing.jpg" style="width: 60%;">
-
-Landsat 8 undergoing testing.
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: [Orbital Sciences Corporation](https://en.wikipedia.org/wiki/File:Landsat_Data_Continuity_Mission_Observatory_testing.jpg) (public domain)
-
-</div>
-
----
-
-# Landsat data products
-
-<div class="container">
-<div class="col-large">
-
-<img src="../images/landsat8-level-comparison.svg">
-
-</div>
-<div class="col-small small">
-
-Available in 2 levels:
-
-* Level 1: **top-of-the-atmosphere** reflectance
-* Level 2: atmospherically corrected **surface reflectance** and surface temperature
-
-In general, opt for level 2 data\*
-
-<div class="tiny">
-
-\*There can be some problems with the automated processing in areas with dense
-cloud coverage or smoke.
-
-</div>
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: [Michelle A. Bouchard](https://www.usgs.gov/media/images/example-landsat-8-collection-2-products) (public domain)
-
-</div>
-
----
-
-# Landsat 8 bands
-
-<div class="container">
-<div class="col-large">
-
-<img src="../images/optical-satellite-comparison.png" style="width: 100%;">
+For example, LiDAR was recently used to
+[map Maya ruins under dense forest in Guatemala](https://www.bbc.co.uk/news/world-latin-america-42916261).
 
 </div>
 <div class="col-small smaller">
 
-| Band | Wavelength (µm) | Resolution (m) |
-|------|:---------------:|:--------------:|
-| 1-Ultra Blue  | 0.435-0.451  | 30 |
-| 2-Blue  | 0.452-0.512  | 30 |
-| 3-Green  | 0.533-0.590  | 30 |
-| 4-Red  | 0.636-0.673  | 30 |
-| 5-NIR  | 0.851-0.879  | 30 |
-| 6-SWIR 1  | 1.566-1.651  | 30 |
-| 7-SWIR 2  | 2.107-2.294  | 30 |
-| 8-Panchromatic  | 0.503-0.676  | 15 |
-| 9-Cirrus  | 1.363-1.384  | 30 |
-| 10-Thermal 1  | 10.60-11.19  | 100 |
-| 11-Thermal 2  | 11.50-12.51  | 100 |
+<img src="../images/King's_Castle,_Wells_LIDAR_(DTM_1m).png" >
+
+LiDAR DEM of the King's Castle iron age settlement in Somerset, England.
 
 </div>
 </div>
 
 <div class="r-stretch bottom-left">
 
-Image credit: [USGS](https://www.usgs.gov/media/../images/comparison-landsat-7-and-8-bands-sentinel-2) (public domain)
+Image credit: [Yodin](https://commons.wikimedia.org/wiki/File:King%27s_Castle,_Wells_LIDAR_(DTM_1m).png) (OGLv3)
 
 </div>
 
 ---
 
-## Example Landsat 8 Level 2 scene
+# LiDAR in geology
 
-<img src="../images/landsat8-bands-liverpool.svg" style="width: 92%;">
+<div class="container">
+<div class="col-large smaller">
 
-<div class="r-stretch bottom-right">
+<img src="../images/lidar.gif" >
 
-Image credit: Leonardo Uieda (CC-BY)
+Aerial photograph, unfiltered (top of the canopy) LiDAR, and bare earth LiDAR DEM
+showing the San Andreas Fault.
+
+</div>
+<div class="col-small small">
+
+LiDAR DEMs can reveal faults, river meanders, lava flows, terrain change (from
+multiple surveys), and more.
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [USGS](https://www.usgs.gov/media/images/san-andreas-fault-2) (public domain)
+
+</div>
+
+---
+
+# LiDAR in glaciology
+
+<div class="container">
+<div class="col-large smaller">
+
+<img src="../images/Flying_over_the_Greenland_Ice_Sheet,_July_2014.jpg">
+
+Aerial photograph of the Greenland ice sheet showing blue melt water lakes and
+rivers.
+
+</div>
+<div class="col-small small">
+
+<img src="../images/ICESat-2_spacecraft_model.png">
+
+LiDAR aboard NASA's Icesat-2 satellite is used to monitor sea ice thickness, ice
+sheet topography, melt water lakes, and topography worldwide.
+
+</div>
+</div>
+
+<div class="r-stretch bottom-left">
+
+Image credit: [Bernt Rostad](https://commons.wikimedia.org/wiki/File:Flying_over_the_Greenland_Ice_Sheet,_July_2014.jpg) (CC-BY)
+and [NASA](https://commons.wikimedia.org/wiki/File:ICESat-2_spacecraft_model.png) (public domain)
 
 </div>
 
@@ -357,247 +301,19 @@ Image credit: Leonardo Uieda (CC-BY)
 <div class="centered">
 <div>
 
-# Quantitative Analysis
+# DEM analysis and visualization
 
 </div>
 </div>
 
 ---
 
-<div class="container">
-<div class="col small">
+<div class="centered">
+<div>
 
-# Composites
-
-Computers display color by combining **red, green, and blue** light.
-
-We can create color images (composites) by **using specific bands** to
-specify the intensity of red, green, and blue.
-
-Landsat 8 example: band 4 (red) to red, band 3 (green) to green, band 2 (blue)
-to blue creates an **RBG composite**
-<br>
-(aka "true color").
+# Coming soon
 
 </div>
-<div class="col">
-
-<img src="../images/rgb-composite-liverpool.svg" style="width: 95%;">
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: Leonardo Uieda (CC-BY)
-
-</div>
-
----
-
-<div class="container">
-<div class="col small">
-
-# "False color"
-
-We can create composites of **any combination** of bands as red, green, and
-blue.
-
-Different combinations **highlight different features** depending on the
-reflectance of materials.
-
-Landsat 8 example: band 5 (NIR) to red, band 4 (red) to green, band 3 (green)
-to blue creates a **color-infrared (CIR) composite**
-
-</div>
-<div class="col fragment">
-
-<img src="../images/cir-composite-liverpool.svg" style="width: 95%;">
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: Leonardo Uieda (CC-BY)
-
-</div>
-
----
-
-# Indices
-
-<div class="container">
-<div class="col small">
-
-Indices are values calculated per-pixel from the reflectance of different
-bands.
-
-Example: subtract the NIR and SWIR bands and divide by their sum.
-
-Used to highlight materials based on their
-spectral characteristics.
-
-Easier to analyze since they combine multiple bands into a single index.
-
-</div>
-<div class="col small fragment">
-
-**How would you design an index <br> that highlights vegetation?**
-
-<img src="../images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 70%">
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg) (CC-BY)
-
-</div>
-
----
-
-# NDVI
-
-<div class="container">
-<div class="col-large small">
-
-<img src="../images/ndvi-mato-grosso.svg" style="width: 100%">
-
-</div>
-<div class="col-small small">
-
-The Normalized Difference Vegetation Index:
-
-`$ NDVI = \dfrac{NIR - Red}{NIR + Red} $`
-
-</div>
-</div>
-
-Indicates dense and healthy vegetation by highlighting the spectral signature
-of chlorophyll.
-
-<div class="r-stretch bottom-left">
-
-Image credit: Leonardo Uieda (CC-BY)
-
-</div>
-
----
-
-# NBR
-
-<div class="container">
-<div class="col-large small">
-
-<img src="../images/nbr_thomas_fire.svg" style="width: 100%">
-
-</div>
-<div class="col-small small">
-
-The Normalized Burn Ratio:
-
-`$ NBR = \dfrac{NIR - SWIR}{NIR + SWIR} $`
-
-Burned areas reflect weekly on NIR and strongly on SWIR bands.
-
-Healthy vegetation is the opposite.
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: Leonardo Uieda (CC-BY)
-
-</div>
-
----
-
-# Classification and segmentation
-
-<div class="container">
-<div class="col small">
-
-More advanced analysis involves the **segmentation** of an image into separate
-objects.
-
-The output of this can be used for **classification** of image sections (burn
-severity, vegetation health, vegetation type, ice vs snow, etc.)
-
-</div>
-<div class="col small">
-
-<img src="../images/Object_based_image_analysis.jpg" style="width: 100%">
-
-</div>
-</div>
-
-<div class="r-stretch bottom-right">
-
-Image credit: [Uddinkabir](https://commons.wikimedia.org/wiki/File:Object_based_image_analysis.jpg) (CC-BY-SA)
-
-</div>
-
----
-
-# Frontiers
-
-<div class="container">
-<div class="col-large small">
-
-An exciting area of current research: deep learning for satellite image
-classification.
-
-<img src="../images/Typical_cnn.png" style="width: 100%">
-
-</div>
-<div class="col-small small">
-
-Presents unique challenges since datasets are massive (hundreds of
-terabytes).
-
-Enables automatic detection and monitoring of fires, deforestation, landslides,
-and more on a global scale.
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: [Uddinkabir](https://commons.wikimedia.org/wiki/File:Object_based_image_analysis.jpg) (CC-BY-SA)
-
-</div>
-
----
-
-# Limitations
-
-<div class="container fragment">
-<div class="col-small small">
-
-* Day-time only
-* Clouds
-* Smoke
-* Atmospheric conditions
-* Range of wavelengths
-
-</div>
-<div class="col-large smaller">
-
-Smoke obscures the visible bands but currently burning areas can be seen on SWIR
-bands.
-
-<img src="../images/new_south_wales_fire.svg" style="width: 95%">
-
-</div>
-</div>
-
-<div class="r-stretch bottom-left">
-
-Image credit: Leonardo Uieda (CC-BY)
-
 </div>
 
 ---
