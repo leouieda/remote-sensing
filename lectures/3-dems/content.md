@@ -64,7 +64,7 @@ Remote Sensing
 <div class="container">
 <div class="col-large">
 
-Global topography image.
+<img src="../images/srtm15p.png">
 
 </div>
 <div class="col-small small">
