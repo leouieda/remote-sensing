@@ -81,13 +81,15 @@ Used in many parts of Earth Sciences and Engineering:
 
 <div class="r-stretch bottom-left">
 
-Image credit: [haade](https://commons.wikimedia.org/wiki/File:AtmosphereEMSpectrum.png) (CC-BY-SA)
+Image credit: Leonardo Uieda (CC-BY)
 
 </div>
 
 ---
 
 # Measuring topography
+
+Measure the height as a function of position (**point cloud**).
 
 <div class="container">
 <div class="col">
@@ -97,17 +99,16 @@ Image credit: [haade](https://commons.wikimedia.org/wiki/File:AtmosphereEMSpectr
 </div>
 <div class="col small">
 
-Measure the height as a function of position to produce a **point cloud**.
+Different methods but many do this:
 
-Usually measure the distance between the surface and the sensor,
-then subtract from the sensor height.
+1. Measure the distance between the surface and a sensor.
+1. Measure the position of the sensor (GPS).
+1. Subtract the distance from the sensor height.
 
 </div>
 </div>
 
 <div class="small">
-
-Multiple surfaces can be measured (top of the canopy, ground, buildings, etc).
 
 </div>
 
@@ -121,29 +122,34 @@ Image credit: [Waikinl](https://commons.wikimedia.org/wiki/File:Colored_pointclo
 
 # Producing a DEM
 
-<div class="container">
-<div class="col">
+<div class="small">
 
-Figure of points interpolated into a DEM. Use Verde and the kilauea data
+A **digital elevation model** (DEM) is produced from point cloud data
+<br>
+through interpolation onto a regular grid (a **raster**).
 
 </div>
-<div class="col small">
 
-To produce a **digital elevation model** (DEM),
-interpolate the point cloud onto a regular grid (a **raster**).
+<div class="container">
+<div class="col-large">
 
-Grid nodes are evenly distributed with a chosen spacing (often called the
+<img src="../images/dem-generation.png">
+
+</div>
+<div class="col-small small">
+
+
+Grid points are evenly distributed with a chosen spacing (often called the
 "resolution" of the DEM).
 
-Raster data (i.e., regular grids) is easier to manipulate, plot, and process
-than point data.
+Raster data are easier to manipulate, plot, and process than point data.
 
 </div>
 </div>
 
 <div class="r-stretch bottom-left">
 
-Image credit: [Waikinl](https://commons.wikimedia.org/wiki/File:Colored_pointcloud.png) (CC-BY-SA)
+Image credit: Leonardo Uieda (CC-BY)
 
 </div>
 
