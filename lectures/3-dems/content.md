@@ -302,28 +302,6 @@ and [NASA](https://commons.wikimedia.org/wiki/File:ICESat-2_spacecraft_model.png
 
 ---
 
-<!-- .slide: class="slide-transition"  data-background-color="#000000" data-background-image="../assets/background.jpg" data-background-repeat="no-repeat" data-background-opacity="0.15" data-background-position="center" -->
-
-<div class="centered">
-<div>
-
-# DEM analysis and visualization
-
-</div>
-</div>
-
----
-
-<div class="centered">
-<div>
-
-# Coming soon
-
-</div>
-</div>
-
----
-
 <!-- END MATTER -->
 <!-- ====================================================================== -->
 
