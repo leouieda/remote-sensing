@@ -214,7 +214,7 @@ remote sensing data
 </div>
 <div class="col fragment" data-fragment-index="1">
 
-<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg">
+<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 90%">
 
 <div class="footnote">
 
@@ -232,7 +232,7 @@ Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral
 <div class="row middle">
 <div class="col-medium">
 
-<img src="../images/Solar_spectrum_pt.svg">
+<img src="images/Solar_spectrum_pt.svg">
 
 <div class="footnote-left">
 
@@ -265,7 +265,7 @@ Absorption by the atmosphere determines in
 </div>
 <div class="fragment">
 
-<img src="../images/AtmosphereEMSpectrum.png">
+<img src="images/AtmosphereEMSpectrum.png">
 
 <div class="footnote">
 
@@ -310,7 +310,7 @@ Depends on:
 
 ## Example: Bands used by optical satellites
 
-<img src="../images/optical-satellite-comparison.png" style="width: 80%;">
+<img src="images/optical-satellite-comparison.png" style="width: 80%;">
 
 <div class="tiny">
 
@@ -352,6 +352,184 @@ Part 2
 
 </div>
 </div>
+
+===============================================================================
+
+# Multispectral optical remote sensing
+
+**Passive** remote sensing (uses reflected radiation from the Sun)
+
+<div class="row">
+<div class="col small fragment" data-fragment-index="1">
+
+Satellites carry sensors that can take images of **multiple wavelength bands
+individually**
+
+<p class="fragment" data-fragment-index="3">
+The collection of images from all bands is called a <strong>scene</strong>
+</p>
+
+</div>
+<div class="col-large fragment" data-fragment-index="2">
+
+<img src="images/landsat8-bands-liverpool.svg">
+
+<div class="footnote">
+
+Image credit: Leonardo Uieda (CC-BY)
+
+</div>
+
+</div>
+</div>
+
+===============================================================================
+
+# Why multiple bands?
+
+<div class="row">
+<div class="col">
+
+Information beyond the visible bands can be crucial for **classification** of
+materials and their properties.
+
+<div class="col fragment" data-fragment-index="1">
+
+For example:
+**vegetation** can be distinguished from soil/rock by identifying
+the characteristic jump between **red and near-infrared**
+
+</div>
+
+</div>
+<div class="col fragment" data-fragment-index="1">
+
+<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 90%">
+
+<div class="footnote">
+
+Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg) (CC-BY)
+
+</div>
+
+</div>
+</div>
+
+===============================================================================
+
+# Thermal bands
+
+Calculation of **surface temperature** on land and oceans
+
+<div class="row middle">
+<div class="col-medium fragment tiny">
+
+<img src="images/MODIS_sst.png">
+
+Sea surface temperature measured by the [MODIS sensor](https://modis.gsfc.nasa.gov/)
+of the Terra and Aqua satellites (operated by NASA).
+<br>
+Image credit: [Giorgiogp2](https://commons.wikimedia.org/wiki/File:MODIS_sst.png) (CC-BY-SA)
+
+</div>
+<div class="col small fragment">
+
+Monitor volcanic eruptions and wild fires (not as affected by smoke/clouds)
+
+Input for ocean and climate models
+
+Lower spatial resolution
+
+</div>
+</div>
+
+===============================================================================
+
+# Panchromatic band
+
+<div class="row">
+<div class="col">
+
+Measures across a **broad range of wavelengths**
+
+<div class="fragment" data-fragment-index="1">
+
+Increase in energy sampled allows for **higher spatial resolution**
+
+</div>
+<div class="fragment" data-fragment-index="3">
+
+Can be used to increase the resolution of other bands
+([pansharpening](https://en.wikipedia.org/wiki/Pansharpened_image))
+
+</div>
+
+</div>
+<div class="col-medium fragment" data-fragment-index="2">
+
+<img src="images/panchromatic-rbg-resolution.svg">
+
+<div class="footnote">
+
+Image credit: Leonardo Uieda (CC-BY)
+
+</div>
+
+</div>
+</div>
+
+===============================================================================
+
+# NASA/USGS Landsat Program
+
+<div class="row">
+<div class="col tiny">
+
+<img src="images/Landsat_Data_Continuity_Mission_Observatory_testing.jpg" style="width: 90%;">
+
+Landsat 8 undergoing testing before launch.
+<br>
+Image credit: [Orbital Sciences Corporation](https://en.wikipedia.org/wiki/File:Landsat_Data_Continuity_Mission_Observatory_testing.jpg) (public domain)
+
+</div>
+<div class="col-medium">
+
+<ul class="fa-ul">
+<li class="fragment">
+<i class="fas fa-history fa-li"></i>
+Operating since the 1970s
+</li>
+<li class="fragment">
+<i class="fas fa-satellite fa-li"></i>
+<a href="https://en.wikipedia.org/wiki/Landsat_8">Landsat 8</a>: launched in
+2013 with 11 bands and is still operating
+</li>
+<li class="fragment">
+<i class="fas fa-satellite fa-li"></i>
+<a href="https://en.wikipedia.org/wiki/Landsat_9">Landsat 9</a>: launched in
+2021, also with 11 bands, to complement the temporal resolution of Landsat 8
+</li>
+<li class="fragment">
+<i class="fas fa-satellite fa-li"></i>
+<a href="https://landsat.gsfc.nasa.gov/satellites/landsat-next/">Landsat Next (10)</a>:
+planned for 2030 with 26 (!) bands and up to 3x better spatial resolution
+</li>
+<li class="fragment">
+<i class="fab fa-creative-commons-pd fa-li"></i>
+Data are released to the <strong>public domain</strong>
+</li>
+<li class="fragment">
+<i class="fas fa-download fa-li"></i>
+Freely downloaded from <a href="https://earthexplorer.usgs.gov/">USGS EarthExplorer</a>
+</li>
+</ul>
+
+</div>
+</div>
+
+===============================================================================
+
+
 
 ===============================================================================
 
