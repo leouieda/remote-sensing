@@ -8,7 +8,7 @@
 @basefontsize: 54px;
 @lightcolor: #ffffff;
 @darkcolor: #333333;
-@gutter: 25px;
+@gutter: 30px;
 @font_main: "Atkinson Hyperlegible";
 @font_footnote: "Atkinson Hyperlegible";
 @font_title: "Atkinson Hyperlegible";
@@ -29,37 +29,37 @@
 
   // Make elements inside this div have larger or smaller font-size
   .enormous {
-    p, a, ul, ol {
+    p, a, table, ul, ol {
       font-size: @basefontsize * 4 !important;
       line-height: @basefontsize * 5 !important;
     }
   }
   .huge {
-    p, a, ul, ol {
+    p, a, table, ul, ol {
       font-size: @basefontsize * 2 !important;
       line-height: @basefontsize * 2.5 !important;
     }
   }
   .large {
-    p, a, ul, ol {
+    p, a, table, ul, ol {
       font-size: @basefontsize * 1.5 !important;
       line-height: @basefontsize * 2 !important;
     }
   }
   .small {
-    p, a, ul, ol {
-      font-size: @basefontsize * 0.8 !important;
+    p, a, table, ul, ol {
+      font-size: @basefontsize * 0.7 !important;
       line-height: @basefontsize * 1 !important;
     }
   }
   .tiny {
-    p, a, ul, ol {
+    p, a, table, ul, ol {
       font-size: @basefontsize * 0.4 !important;
       line-height: @basefontsize * 0.5 !important;
     }
   }
   .miniscule {
-    p, a, ul, ol {
+    p, a, table, ul, ol {
       font-size: @basefontsize * 0.35 !important;
       line-height: @basefontsize * 0.4 !important;
     }
@@ -169,6 +169,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-right {
+    text-align: right;
   }
 
   // ========================================================================
