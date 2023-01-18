@@ -1,0 +1,346 @@
+// Styling for the slides.
+//
+// Apply tweaks to some reveal.js styles and create some custom classes to make
+// it easier to create lectures. Uses LESS (https://lesscss.org).
+
+// VARIABLES
+// ============================================================================
+@basefontsize: 54px;
+@lightcolor: #ffffff;
+@darkcolor: #333333;
+@gutter: 25px;
+@font_main: "Atkinson Hyperlegible";
+@font_footnote: "Atkinson Hyperlegible";
+@font_title: "Atkinson Hyperlegible";
+@font_code: "Ubuntu Mono";
+
+// Make the KaTeX font size the same as the text size (default is slightly
+// larger)
+.katex {
+  font-size: 1em !important;
+}
+
+// Everything needs to be defined inside the reveal class to avoid being
+// overwritten by reveal styling.
+.reveal {
+
+  // CUSTOM CLASSES
+  // ========================================================================
+
+  // Make elements inside this div have larger or smaller font-size
+  .enormous {
+    p, a, ul, ol {
+      font-size: @basefontsize * 4 !important;
+      line-height: @basefontsize * 5 !important;
+    }
+  }
+  .huge {
+    p, a, ul, ol {
+      font-size: @basefontsize * 2 !important;
+      line-height: @basefontsize * 2.5 !important;
+    }
+  }
+  .large {
+    p, a, ul, ol {
+      font-size: @basefontsize * 1.5 !important;
+      line-height: @basefontsize * 2 !important;
+    }
+  }
+  .small {
+    p, a, ul, ol {
+      font-size: @basefontsize * 0.8 !important;
+      line-height: @basefontsize * 1 !important;
+    }
+  }
+  .tiny {
+    p, a, ul, ol {
+      font-size: @basefontsize * 0.4 !important;
+      line-height: @basefontsize * 0.5 !important;
+    }
+  }
+  .miniscule {
+    p, a, ul, ol {
+      font-size: @basefontsize * 0.35 !important;
+      line-height: @basefontsize * 0.4 !important;
+    }
+  }
+
+  // Dark background and light text for p inside this.
+  .dark {
+    p {
+      background-color: @darkcolor !important;
+      color: #dddddd !important;
+      a {
+        color: #dddddd !important;
+        text-decoration: underline !important;
+      }
+    }
+  }
+
+  // Centre the content in a div. Must have another empty div inside it if you
+  // want multiple paragraphs.
+  .centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    & > div {
+      margin-bottom: -3rem;
+    }
+  }
+
+  // Footnotes. Use in a div. Add the r-stretch class on the element before to
+  // push to the bottom of the slide.
+  .footnote {
+    .miniscule();
+    display: flex;
+    justify-content: flex-end;
+    p {
+      background-color: #eeeeee;
+      color: @darkcolor;
+      font-family: @font_footnote;
+      padding: 15px 25px;
+      margin: 0 !important;
+      box-shadow: 4px 3px 3px #00000033;
+      text-align: left;
+      a {
+        color: @darkcolor;
+        font-family: @font_footnote;
+        text-decoration: underline;
+      }
+    }
+  }
+  .footnote-center {
+    .footnote();
+    justify-content: center;
+  }
+  .footnote-left {
+    .footnote();
+    justify-content: flex-start;
+  }
+
+  // Centered quote block. Use inside another div.
+  .quote {
+    .centered();
+    width: 100%;
+    & > p {
+      background-color: #eeeeee;
+      color: @darkcolor;
+      width: 100%;
+      box-shadow: 5px 5px 10px #00000033;
+      border-radius: 10px;
+      padding: 5%;
+      margin: 0;
+      a {
+        color: @darkcolor;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Columns. Wrap them in the row.
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: 100%;
+    }
+    margin: 0 @gutter * -1;
+  }
+  .col {
+    flex: 1;
+    padding: 0 @gutter;
+  }
+  .col-large {
+    .col();
+    flex: 3;
+  }
+  .col-medium {
+    .col();
+    flex: 2;
+  }
+
+  // Align items and text in a container
+  .middle {
+    align-items: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  // ========================================================================
+
+
+  // SLIDE CLASSES
+  // ========================================================================
+  .slide-transition {
+    background-color: #0053d1;
+    h1 {
+      font-size: @basefontsize * 2.5;
+      line-height: @basefontsize * 3;
+    }
+  }
+  .slide-title {
+    text-align: left;
+    p, a, h1 {
+      font-family: @font_title;
+    }
+    a {
+      color: @lightcolor;
+      text-decoration: none !important;
+    }
+    a:hover {
+      text-decoration: underline !important;
+    }
+    p {
+      font-size: @basefontsize * 0.5;
+      line-height: @basefontsize * 0.6;
+      margin: 0 0 40px 0;
+    }
+    h1#talk-title {
+      margin: 0 auto;
+      font-size: @basefontsize * 2.25;
+      line-height: @basefontsize * 2.5;
+      text-transform: none;
+    }
+    p#talk-authors {
+      font-size: @basefontsize;
+      line-height: @basefontsize;
+      margin: 80px 0;
+    }
+    #talk-speaker {
+      text-decoration: underline;
+    }
+    .talk-info {
+      padding-top: 100px;
+      .talk-logos-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        .talk-logos {
+          position: absolute;
+          width: 100%;
+          bottom: 10%;
+          left: 0;
+          text-align: right;
+          img {
+            height: 1.5em;
+            width: auto;
+            margin: 0 2%;
+          }
+        }
+      }
+    }
+  }
+  .slide-contact {
+    a {
+      text-decoration: none !important;
+    }
+  }
+  .slide-license {
+    .license-icons {
+      font-size: @basefontsize * 1.5;
+      i {
+        margin-right: 5px;
+      }
+    }
+    p {
+      font-size: @basefontsize * 0.75;
+      line-height: @basefontsize * 1.1;
+    }
+  }
+  // ========================================================================
+
+
+  // Tweaks to Reveal.js CSS
+  // ========================================================================
+  font-size: @basefontsize;
+  p, a, ul, ol, h1, h2, h3 {
+    font-family: @font_main;
+  }
+  section {
+    .nomargin {
+      margin: 0 auto;
+      max-width: none;
+      max-height: none;
+    }
+    img {
+      width: 100%;
+      border: none;
+      box-shadow: none;
+      background: none;
+      .nomargin();
+    }
+    video {
+      width: 100%;
+      .nomargin();
+    }
+    &.has-light-background h1 {
+      color: @darkcolor;
+    }
+    &.has-dark-background {
+      a {
+        color: @lightcolor;
+        text-decoration: underline;
+      }
+    }
+  }
+  h1, h2, h3 {
+    font-weight: normal;
+    text-transform: none;
+  }
+  h1 {
+    font-size: @basefontsize * 1.6;
+    line-height: @basefontsize * 2.0;
+    margin-bottom: 3.5rem;
+  }
+  h2 {
+    font-size: @basefontsize * 1.35;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-size: @basefontsize * 1.1;
+    margin-bottom: 1rem;
+  }
+  p {
+    line-height: @basefontsize * 1.5;
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  ul {
+    margin: 0 0 1rem 0;
+    &.fa-ul {
+      list-style-type: none;
+      margin-left: 1.5em;
+    }
+  }
+  li {
+    margin-bottom: 2rem;
+  }
+  code {
+    font-family: @font_code;
+  }
+  pre {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    width: 100%;
+    box-shadow: none; //5px 5px 6px #00000044;
+    code {
+      padding: 2rem 2.3rem;
+      max-height: none;
+    }
+  }
+  .print-pdf {
+    section.present {
+      height: 100%;
+    }
+  }
+  // ========================================================================
+}
