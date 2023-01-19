@@ -356,7 +356,7 @@ The collection of images from all bands is called a <strong>scene</strong>
 </div>
 <div class="col-large fragment" data-fragment-index="2">
 
-<img src="images/landsat8-bands-liverpool.svg">
+<img src="images/landsat8-bands-liverpool.png">
 
 <div class="footnote">
 
@@ -451,7 +451,7 @@ Can be used to increase the resolution of other bands
 </div>
 <div class="col-medium fragment" data-fragment-index="2">
 
-<img src="images/panchromatic-rbg-resolution.svg">
+<img src="images/panchromatic-rbg-resolution.png">
 
 <div class="footnote">
 
@@ -795,7 +795,7 @@ Chlorophyll reflects weakly on red and strongly on NIR
 </div>
 <div class="col-large fragment">
 
-<img src="images/ndvi-mato-grosso.svg">
+<img src="images/ndvi-mato-grosso.png">
 
 <div class="footnote">
 
@@ -828,7 +828,7 @@ Burned areas reflect weekly on NIR and strongly on SWIR
 </div>
 <div class="col-large fragment">
 
-<img src="images/nbr_thomas_fire.svg" style="width: 100%">
+<img src="images/nbr_thomas_fire.png" style="width: 100%">
 
 <div class="footnote">
 
@@ -947,7 +947,7 @@ Current fire appears on SWIR but need NIR to calculate NBR.
 </div>
 <div class="col-medium tiny text-right fragment" data-fragment-index="4">
 
-<img src="images/new_south_wales_fire.svg" style="width: 100%">
+<img src="images/new_south_wales_fire.png" style="width: 100%">
 
 Image credit: Leonardo Uieda (CC-BY)
 
