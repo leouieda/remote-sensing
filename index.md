@@ -828,11 +828,11 @@ Burned areas reflect weekly on NIR and strongly on SWIR
 </div>
 <div class="col-large fragment">
 
-<img src="images/nbr_thomas_fire.png" style="width: 100%">
+<img src="images/thomas-fire-low-res.jpg" style="width: 100%">
 
 <div class="footnote">
 
-Image credit: Leonardo Uieda (CC-BY)
+Image credit: [Leonardo Uieda (2023)](https://doi.org/10.6084/m9.figshare.21930384) (CC-0)
 
 </div>
 
