@@ -110,7 +110,7 @@ Widespread data coverage and availability has revolutionized our ability to
 </div>
 <div class="col-medium tiny fragment" data-fragment-index="1">
 
-<img src="images/mauna-loa-landsat-2022-12-02-low-res.jpg">
+<img src="assets/mauna-loa-landsat-2022-12-02-low-res.jpg">
 
 Example infrared image of the
 [December 2022 Mauna Loa volcano eruption](https://www.leouieda.com/blog/mauna-loa.html)
@@ -185,7 +185,7 @@ Examples of EM sources:
 
 <div class="r-stretch">
 
-<img src="images/EM_Spectrum_Properties_edit.svg">
+<img src="assets/EM_Spectrum_Properties_edit.svg">
 
 </div>
 <div class="footnote">
@@ -216,7 +216,7 @@ remote sensing data
 </div>
 <div class="col fragment" data-fragment-index="1">
 
-<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 90%">
+<img src="assets/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 90%">
 
 <div class="footnote">
 
@@ -234,7 +234,7 @@ Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral
 <div class="row middle">
 <div class="col-medium">
 
-<img src="images/Solar_spectrum_pt.svg">
+<img src="assets/Solar_spectrum_pt.svg">
 
 <div class="footnote-left">
 
@@ -267,7 +267,7 @@ Absorption by the atmosphere determines in
 </div>
 <div class="fragment">
 
-<img src="images/AtmosphereEMSpectrum.png">
+<img src="assets/AtmosphereEMSpectrum.png">
 
 <div class="footnote">
 
@@ -312,7 +312,7 @@ Depends on:
 
 ## Example: Bands used by optical satellites
 
-<img src="images/optical-satellite-comparison.png" style="width: 80%;">
+<img src="assets/optical-satellite-comparison.png" style="width: 80%;">
 
 <div class="tiny">
 
@@ -356,7 +356,7 @@ The collection of images from all bands is called a <strong>scene</strong>
 </div>
 <div class="col-large fragment" data-fragment-index="2">
 
-<img src="images/landsat8-bands-liverpool.png">
+<img src="assets/landsat8-bands-liverpool.png">
 
 <div class="footnote">
 
@@ -388,7 +388,7 @@ the characteristic jump between **red and near-infrared**
 </div>
 <div class="col fragment" data-fragment-index="1">
 
-<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 90%">
+<img src="assets/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 90%">
 
 <div class="footnote">
 
@@ -408,7 +408,7 @@ Calculation of **surface temperature** on land and oceans
 <div class="row">
 <div class="col-medium fragment tiny">
 
-<img src="images/MODIS_sst.png">
+<img src="assets/MODIS_sst.png">
 
 Sea surface temperature measured by the [MODIS sensor](https://modis.gsfc.nasa.gov/)
 of the Terra and Aqua satellites (operated by NASA).
@@ -451,7 +451,7 @@ Can be used to increase the resolution of other bands
 </div>
 <div class="col-medium fragment" data-fragment-index="2">
 
-<img src="images/panchromatic-rbg-resolution.png">
+<img src="assets/panchromatic-rbg-resolution.png">
 
 <div class="footnote">
 
@@ -469,7 +469,7 @@ Image credit: Leonardo Uieda (CC-BY)
 <div class="row">
 <div class="col tiny">
 
-<img src="images/Landsat_Data_Continuity_Mission_Observatory_testing.jpg" style="width: 90%;">
+<img src="assets/Landsat_Data_Continuity_Mission_Observatory_testing.jpg" style="width: 90%;">
 
 Landsat 8 undergoing testing before launch.
 <br>
@@ -520,7 +520,7 @@ Freely downloaded from <a href="https://earthexplorer.usgs.gov/">USGS EarthExplo
 <p style="margin-bottom: 1rem;">
 Level 1: <br> <strong>top-of-the-atmosphere</strong> reflectance
 </p>
-<img src="images/landsat8-toa-reflectance.jpg" style="width: 80%">
+<img src="assets/landsat8-toa-reflectance.jpg" style="width: 80%">
 <div class="footnote-center">
 
 Image credit: [Michelle A. Bouchard](https://www.usgs.gov/media/images/example-landsat-8-collection-2-products) (public domain)
@@ -531,7 +531,7 @@ Image credit: [Michelle A. Bouchard](https://www.usgs.gov/media/images/example-l
 <p style="margin-bottom: 1rem;">
 Level 2: <br> <strong>surface reflectance</strong> and surface temperature
 </p>
-<img src="images/landsat8-surface-reflectance.jpg" style="width: 80%">
+<img src="assets/landsat8-surface-reflectance.jpg" style="width: 80%">
 </div>
 </div>
 
@@ -542,7 +542,7 @@ Level 2: <br> <strong>surface reflectance</strong> and surface temperature
 <div class="row">
 <div class="col">
 
-<img src="images/optical-satellite-comparison.png">
+<img src="assets/optical-satellite-comparison.png">
 
 <div class="fragment" style="margin-top: 5rem">
 
@@ -579,7 +579,7 @@ Image credit: [Kääb et al. (2016)](https://doi.org/10.3390/rs8070598) (CC-BY)
 
 ## Example Landsat 8 scene (Level 2)
 
-<img src="images/landsat8-bands-liverpool.svg">
+<img src="assets/landsat8-bands-liverpool.svg">
 
 <div class="footnote">
 
@@ -624,7 +624,7 @@ bands used = (red, green, blue) <br>
 </div>
 <div class="col tiny text-right fragment" data-fragment-index="3">
 
-<img src="images/rgb-composite-liverpool.jpg" style="width: 90%;">
+<img src="assets/rgb-composite-liverpool.jpg" style="width: 90%;">
 
 Image credit: Leonardo Uieda (CC-BY)
 
@@ -668,7 +668,7 @@ bands used = (NIR, red, green)
 </div>
 <div class="col tiny text-right fragment" data-fragment-index="3">
 
-<img src="images/cir-composite-liverpool.jpg" style="width: 90%;">
+<img src="assets/cir-composite-liverpool.jpg" style="width: 90%;">
 
 Image credit: Leonardo Uieda (CC-BY)
 
@@ -695,7 +695,7 @@ Can't see the current lava flows
 </div>
 <div class="col-large tiny text-right">
 
-<img src="images/mauna-loa-landsat-2022-12-02-rgb-low-res.jpg">
+<img src="assets/mauna-loa-landsat-2022-12-02-rgb-low-res.jpg">
 
 <div class="footnote">
 
@@ -725,7 +725,7 @@ SWIR2/SWIR1 are **red/green** in the image
 </div>
 <div class="col-large tiny text-right">
 
-<img src="images/mauna-loa-landsat-2022-12-02-low-res.jpg">
+<img src="assets/mauna-loa-landsat-2022-12-02-low-res.jpg">
 
 <div class="footnote">
 
@@ -762,7 +762,7 @@ Used to **highlight materials** based on their reflectance characteristics
 
 How would you design an index <br> that **highlights vegetation?**
 
-<img src="images/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 75%">
+<img src="assets/Incoming_spectral_reflectance_from_different_objects_to_a_sensor_system.svg" style="width: 75%">
 
 <div class="footnote">
 
@@ -795,7 +795,7 @@ Chlorophyll reflects weakly on red and strongly on NIR
 </div>
 <div class="col-large fragment">
 
-<img src="images/ndvi-mato-grosso.png">
+<img src="assets/ndvi-mato-grosso.png">
 
 <div class="footnote">
 
@@ -828,7 +828,7 @@ Burned areas reflect weekly on NIR and strongly on SWIR
 </div>
 <div class="col-large fragment">
 
-<img src="images/thomas-fire-low-res.jpg" style="width: 100%">
+<img src="assets/thomas-fire-low-res.jpg" style="width: 100%">
 
 <div class="footnote">
 
@@ -868,7 +868,7 @@ Methods can be complicated
 </div>
 <div class="col fragment">
 
-<img src="images/Object_based_image_analysis.jpg" style="width: 100%">
+<img src="assets/Object_based_image_analysis.jpg" style="width: 100%">
 
 <div class="footnote">
 
@@ -889,7 +889,7 @@ Exciting area of research:
 <br>
 **deep learning** for satellite image **classification**
 
-<img src="images/Typical_cnn.png">
+<img src="assets/Typical_cnn.png">
 
 <div class="footnote-left" style="margin-top: 5rem">
 
@@ -947,7 +947,7 @@ Current fire appears on SWIR but need NIR to calculate NBR.
 </div>
 <div class="col-medium tiny text-right fragment" data-fragment-index="4">
 
-<img src="images/new_south_wales_fire.png" style="width: 100%">
+<img src="assets/new_south_wales_fire.png" style="width: 100%">
 
 Image credit: Leonardo Uieda (CC-BY)
 
