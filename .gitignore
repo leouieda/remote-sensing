@@ -2,3 +2,4 @@ report/data/*
 data/*.zip
 practicals/*.TIF
 practicals/*MTL.txt
+practicals/*tar.gz

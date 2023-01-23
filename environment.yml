@@ -1,16 +1,19 @@
 name: remote-sensing
 channels:
-    - defaults
-    - conda-forge
+  - conda-forge
+  - defaults
 dependencies:
-    - python==3.10.*
-    - pip
-    - numpy
-    - scipy
-    - pandas
-    - matplotlib
-    - scikit-image
-    - xlandsat
-    - jupyter
-    - jupyterlab
-    - livereload
+  - python==3.10.*
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - matplotlib-scalebar
+  - scikit-image
+  - xlandsat
+  - pooch
+  - tqdm
+  - jupyter
+  - jupyterlab
+  - livereload
