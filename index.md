@@ -776,7 +776,7 @@ Image credit: [Arbeck](https://commons.wikimedia.org/wiki/File:Incoming_spectral
 
 # Normalized Difference Vegetation Index (NDVI)
 
-<div class="row middle" style="margin-top: 5rem">
+<div class="row middle">
 <div class="col">
 
 <div class="fragment large">
@@ -791,17 +791,17 @@ Highlights vegetation
 
 Chlorophyll reflects weakly on red and strongly on NIR
 
+<div class="footnote-left" style="margin-top: 20rem">
+
+Image credit: [Leonardo Uieda (2023)](https://doi.org/10.6084/m9.figshare.21932118) - CC0
+
+</div>
+
 </div>
 </div>
 <div class="col-large fragment">
 
-<img src="assets/ndvi-mato-grosso.png">
-
-<div class="footnote">
-
-Image credit: Leonardo Uieda (CC-BY)
-
-</div>
+<img src="assets/ndvi-mato-grosso.jpg">
 
 </div>
 </div>
